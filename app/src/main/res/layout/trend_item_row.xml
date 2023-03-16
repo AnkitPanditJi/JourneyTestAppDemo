@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_width="match_parent"
+        app:cardCornerRadius="8dp"
+        android:id="@+id/mainCard"
+        app:cardBackgroundColor="@color/white"
+        app:strokeColor="@color/google_card_color"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/title"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/google_card_title_color"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:textStyle="bold"
+                android:textSize="13dp"
+                android:gravity="center"
+                android:text="sa dsv sdjsdv sdv sdv svd sd jsdkv ckdskv vdsk dskv sd vdsk dk ds svsdk ds sdksd "
+                android:maxLines="2"
+                android:ellipsize="end"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></TextView>
+
+            <TextView
+                android:id="@+id/body_description"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/google_card_title_color"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:gravity="center"
+                android:textSize="12dp"
+                android:text="sa dsv sdjsdv sdv sdv svd sd jsdkv ckdskv vdsk dskv sd vdsk dk ds svsdk ds sdksd "
+                android:ellipsize="end"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></TextView>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
